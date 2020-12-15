@@ -16,7 +16,7 @@ client.on('ready', () => {
 client.on('message', async msg => {
   if (msg.content.startsWith('!help')) 
   {
-    msg.reply("Utilise la commande !deals pour rechercher des bons deals, teste !deals Spyro") 
+    msg.reply("Utilise la commande !deals pour rechercher des bons deals, teste !deals Spyro ;)") 
   }
 
   if (msg.content.startsWith('!deals')) 
